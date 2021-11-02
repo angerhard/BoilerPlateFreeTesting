@@ -7,7 +7,7 @@ namespace BoilerPlateFreeTesting
     public partial class TestService
     {
         private readonly TestRepository _testRepository;
-        private readonly Logger<TestService> _logger;
+        private readonly ILogger<TestService> _logger;
 
         public void runService()
         {
