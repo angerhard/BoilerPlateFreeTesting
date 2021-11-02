@@ -3,8 +3,7 @@ using BoilerplateFree;
 
 namespace BoilerPlateFreeTesting
 {
-    [AutoGenerateConstructor]
-    public partial class TestRepository
+    public class TestRepository
     {
         public string getTestData()
         {
